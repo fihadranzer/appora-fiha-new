@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+
+/* Grid System Details Here  */
+
+.grid {
+  display: grid;
+}
+
+.grid-hero-part {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-column-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-column-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-feature {
+  grid-template-columns: 2fr 1fr;
+}
+
+
+.grid-contact {
+  grid-template-columns: 2fr 2.5fr;
+}
+
+.grid-column-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-column-odd {
+  grid-template-columns: 3fr 2fr 2fr 2fr;
+}
+
+
+
+/* ************Spacing *********** */
+
+
+.mrb-30 {
+  margin-bottom: 3rem;
+}
+.mrb-40 {
+  margin-bottom: 4rem;
+}
+
+.mrt-40 {
+  margin-top: 4rem;
+}
+
+
+/* title */
+
+.secondary-title {
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  font-weight: 500;
+  
+}
+
+.appora-text-primary{
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+}
+
+.title-text-primary{
+  padding: 0 20%;
+}

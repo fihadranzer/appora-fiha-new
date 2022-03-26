@@ -1,0 +1,284 @@
+/******************************/
+/******  HERO PART START ******/
+/******************************/
+
+.section-hero {
+  background-image: url("../images/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-hero::before {
+  position: absolute;
+  content: url(../images/hero-footer.png);
+  bottom: -10rem;
+  left: 0;
+  z-index: -1;
+  width: 10%;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-left: 2.6rem;
+}
+
+.hero-container {
+  padding-top: 8rem;
+}
+.hero-left {
+  align-content: start;
+}
+.hero-right img {
+  height: 100%;
+}
+
+.hero-title-main {
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 12rem;
+  color: #fff;
+}
+
+.hero-details {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.7rem;
+  font-weight: 400;
+  width: 60rem;
+}
+
+.hero-btn-box a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  color: #000000;
+  margin-right: 2.4rem;
+}
+.hero-right {
+  text-align: center;
+}
+
+/******************************/
+/******ABOUT APPORA START******/
+/******************************/
+
+.section-about-appora {
+  margin: 8rem 0;
+  padding: 2rem 0;
+}
+.about-box {
+  gap: 4rem;
+  padding: 6rem 0;
+}
+.appora-about-box {
+  justify-items: center;
+
+  padding: 2rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.144);
+}
+
+.appora-about-box img {
+  width: 100%;
+}
+
+.normal-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.normail-details {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+  text-align: center;
+}
+/******************************/
+/******APPORA SERVICE START****/
+/******************************/
+
+.service-image-box {
+  justify-items: center;
+  gap: 2rem;
+  padding: 6rem 10rem;
+}
+
+.service-image-box img:nth-child(odd) {
+  height: 75%;
+  align-content: center;
+  margin: 5rem 0;
+}
+/******************************/
+/*****APPORA FEATURES START****/
+/******************************/
+.section-features {
+  padding: 3rem 0;
+  margin: 6rem 0;
+}
+.feature-left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20rem;
+}
+
+.feature-btn {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem;
+  margin: 3rem 0;
+  background-color: #372e95;
+  color: #fff;
+  border: none;
+}
+
+.feature-left-box p {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+
+.feature-list-box p i {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  height: 1.6rem;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #962de6;
+}
+/******************************/
+/*****APPORA CONTACT START*****/
+/******************************/
+.section-contact{
+  padding: 4rem 0;
+}
+
+.grid-contact{
+  margin-top: 8rem;
+  padding: 4rem 0;
+}
+.icon-contact {
+  font-size: 1.8rem;
+}
+
+.icon-contact i {
+  height: 5rem;
+  width: 5rem;
+  background-color: #962de6;
+  border-radius: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 2.2rem;
+}
+
+form input {
+  border: none;
+  outline: none;
+}
+
+form input::placeholder {
+  font-size: 1.8rem;
+}
+.name-box input {
+  border-bottom: 2px solid #962de6;
+  padding-right: 8rem;
+  margin: 3rem 4rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  display: inline-block;
+  width: 30%;
+}
+
+.subject-box input {
+  border-bottom: 2px solid #962de6;
+  width: 72%;
+  display: block;
+  margin: 3rem 4rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.text-area textarea {
+  margin: 3rem 4rem;
+  width: 72%;
+  border-radius: 2rem;
+  border: 2px solid #962de6;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+}
+
+.text-area textarea::placeholder {
+  font-size: 1.8rem;
+}
+
+form button {
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: #962de6;
+  color: #fff;
+  padding: 1.2rem;
+  margin: 2rem 4rem;
+  border-radius: 0.5rem;
+}
+/******************************/
+/*****APPORA FOOTER START******/
+/******************************/
+
+
+footer {
+  background-color: #222222;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+
+.social-icon-list{
+  display: flex;
+}
+
+.social-icon-list li{
+  list-style: none;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.footer-subheader{
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+}
+
+
+.footer-link li{
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.7rem;
+  list-style: none;
+  margin: 2rem 0;
+ 
+}
+
+.footer-link li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link-box{
+  
+  display: grid;
+  padding-left: 10rem;
+
+}
